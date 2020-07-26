@@ -27,25 +27,37 @@
     <header style="text-align: center;"><h1>Second page</h1></header>
 
     <main>
-      <form style="text-align: center;">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="firstname" />
-        <div></div>
-        <label>Surename</label>
-        <input type="text" />
-        <div></div>
-        <label>email</label>
-        <input type="text" />
-        <div></div>
-        <label>adress</label>
-        <input type="text" />
-        <div></div>
-        <label>phone</label>
-        <input type="text" />
-        <div></div>
-        <label>education</label>
-        <input type="text" />
+      <form style="text-align: left;" id="first-form">
+        <label id="name">Name</label><br />
+        <input type="text" id="name" name="firstname" /><br />
+        <label id="surename">Surename</label><br />
+        <input type="text" /><br />
+        <label id="email">email</label><br />
+        <input type="text" /><br />
+        <label id="adress">adress</label><br />
+        <input type="text" /><br />
+        <label id="phone">phone</label><br />
+        <input type="text" /><br />
+        <label id="education">education</label><br />
+        <input type="text" /><br />
+        <label id="date of birth">date of birth</label><br />
+        <input type="date" /><br />
+        <br />
+        <label for="Gender">Gender:</label><br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label><br />
+        <br />
+        <label id="photo">Your photo</label><br />
+        <br />
+        <input type="file" /><br />
+        <br />
+        <input type="submit" value="Potvrdi" />
       </form>
+      <pre id="preview"></pre>
       <a href="/index.html">Go to first page</a>
     </main>
     <footer></footer>
